@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="imagegallery.css">
+    <script src="imagegallery.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="search">
+            <div class="title"><span style="color: red;">T</span>amil <span style="color: red;">M</span>ovies</div>
+              <input type="search" onkeyup="search(this.value)" placeholder="Search....." class="search_bar">
+        </div>
+        <br>
+        <div id="container" class="container">  
+        </div>
+        <div class="display"  id="cancelid">
+           <div class="view" >
+                <div class="imgcont"id="viewimg" ></div>
+                <div class="content" id="cont">
+                </div>
+                <div class="cancel" onclick="cancel()">&times;</div>
+           </div>
+        </div>
+        
+        <script>
+            viewList()
+        </script> 
+    </div>
+</body>
+</html>
