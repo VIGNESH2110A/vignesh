@@ -1,0 +1,100 @@
+
+
+.header
+{
+    background-color:black;
+    color: white;
+  
+    text-align: center;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 1;  
+}
+.count
+{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 50%;
+    position: absolute;
+    right: 9.5%;
+    top:35px;
+}
+.left_head
+{
+    width: 20%;
+
+    
+   
+}
+.right_head
+{
+    display: flex;
+    width: 70%;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+.right_head p
+{
+    margin-left: 20px;
+   margin-top: 30px;
+   font-size: 20px;
+   font-weight:bold;
+
+
+}
+.right_head p:hover
+{
+    cursor: pointer;
+    color: #FFC300;
+}
+.right_head_end
+{
+    display: flex;
+    align-items: center;
+    
+}
+.right_head_end .cardicon
+{
+    height: 40px;
+    width: 40px;
+    padding-top: 20px;
+}
+.right_head_end p
+{
+    padding-top: 20px;
+    
+}
+
+.left_head h1
+{
+    cursor: pointer;
+    
+}
+.cardicon
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.cardicon:hover
+{
+    color:#FFC300;
+}
+.head
+{
+    text-decoration: none;
+    color: white;
+}
+.head:hover
+{
+    color:#FFC300;
+}

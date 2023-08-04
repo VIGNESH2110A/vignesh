@@ -1,0 +1,97 @@
+
+.body_left
+{
+    width: 20%;
+    background-color:rgb(23, 23, 41);
+    color: white;
+    height: 100vh;
+    position: fixed;
+    top:9%;   
+}
+.category
+{
+    text-align: center;
+}
+.category button
+{
+    margin-left: 10px;
+    height: 30px;
+    width: 70px;
+}
+.search
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.search input
+{
+    height: 35px;
+    width: 70%;
+    border-radius: 10px;  
+}
+.brand,.heading 
+{
+    text-align: center;
+}
+.screen button
+{
+    margin-left: 30px;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: #FFC300;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.inches button
+{
+   padding: 7px 15px;
+   margin-left: 10px; 
+   background-color: #FFC300;
+   border-radius: 5px;
+   border: 3px solid black;
+   cursor: pointer;
+
+}
+.inches button:hover
+{
+    background-color: #FF5733;
+}
+.screen button:hover
+{
+    background-color: #FF5733;
+}
+.inches p
+{
+    cursor: pointer;
+}
+.prevbutton
+{
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    margin-top: 150px;
+    margin-left: 20px;
+    background-color: #FF5733;
+    width: 80px;
+    height: 40px;
+}
+.prevbutton:hover
+{
+    background-color: black;
+    color: white;
+}
+.brand p
+{
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.brand P:hover
+{
+    color: #FFC300;
+}
