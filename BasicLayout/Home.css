@@ -1,0 +1,135 @@
+
+.mainPage
+{
+    background-color:#824122;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+.mainPage h1
+{
+    text-align: center;
+}
+.head
+{
+    background-color:#824f22;
+    height: 70px;
+    text-align: center;
+    color: white;
+    padding-top: 2px;
+  
+}
+.menu
+{
+    background-color:white;
+    display:flex ;
+    padding-top: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    height: 33px;
+    font-weight: bold;
+    
+}
+.menu a:hover
+ {
+    background-color:black;
+    color: white;
+    height:23px;
+    
+  }
+.body
+{
+    display:flex ;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+.body img
+{
+    width: 100%;
+    height: 100%;
+  
+}
+.body div
+{
+    width: 60%;
+    margin: 10px;
+}
+.body .bodyFirst
+{
+    width: 100%;
+    height: 100%;
+}
+.body .bodySecond
+{
+    width: 30%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#8b6245;
+    border-radius: 10px;
+    color: white;
+    text-align:center;
+    
+}
+.bodySecond a button
+{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #824122;
+    color: white;
+}
+.bodySecond a button:hover
+{
+    background-color: white;
+    color: black;
+}
+.flex{
+    
+    display:flex ;
+    flex-wrap: nowrap;
+    margin: 10px;
+    background-color: #824f22;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+.flex p
+{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.flex div{
+   
+    width: 25%;
+    margin: 20px;
+    text-align: center;
+    border: 5px solid white;
+    background-color: black;
+    color: white;
+   
+}
+.flex img
+{
+    width:100%;
+    height:70%;
+ 
+}
+.footer
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.icon a
+{
+    
+    text-decoration: none;
+    color: white;
+}
